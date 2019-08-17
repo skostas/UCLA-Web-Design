@@ -1,0 +1,58 @@
+
+body{
+	/*background color is cream*/
+	background-color:#fffdd0;
+}
+
+
+/*color current page is salmon in nav bar*/
+#products{
+	background-color: #ff5757;
+}
+/*category title*/
+#sectionTitle{
+	/*text color is Salmon*/
+	color:#ff5757;
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+	font-size: 2em; 
+	text-decoration: underline; 
+}
+
+/*product table*/
+table{
+	margin-left:10px;
+	margin-top:10px;
+}
+td {
+	/*put boarders on table in pale maroon*/
+	border:1px solid #643232;
+	/*center table content*/
+	text-align:center;
+	/*add padding*/
+	padding:5px;
+	}
+/*product image, caption, by inheritence, and field label*/
+figure, label{
+	margin:0px;
+	/*gray text*/
+	color:#808080;
+}
+/*add to cart form*/
+form{
+	padding-top:5px;
+}
+/*text field for quantity of product*/
+.quant{
+	/*restrict width of*/
+	width:15px;
+	text-align: left;
+	padding: 5px;
+}
+
+footer{
+	/*text is grey*/
+	color:#808080;
+	/*prevent wrapping*/
+	clear:both;
+}

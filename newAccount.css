@@ -1,0 +1,49 @@
+body{
+	/*creame background*/
+	background-color:#fffdd0;	
+}
+
+/*form title*/
+h3{
+	/*center text*/
+	text-align: center; 
+	/*use a cursive font*/
+	font-family:"Brush Script MT", cursive; 
+	/*make text maroon*/
+	color: #643232;
+	/*double size of text*/
+	font-size:2em; 
+	/*underline*/
+	text-decoration: underline; 
+	/*remove bottom margin*/
+	margin-bottom: 0px;
+}
+
+/*new account form*/
+form{
+	/*center contents*/
+	text-align:center; 
+	margin: 20px; 
+}
+
+/*input fields for form*/
+fieldset{
+	/*pale maroon border for form*/
+	border-color: #643232;
+	/*text color is grey*/
+	color: #808080;
+	display:inline; 
+	padding:15px;
+	padding-top:5px;
+	text-align: left;
+}
+
+/*contianer for submit and clear buttons*/
+div{
+	/*on own line separate from prior fieldset of form*/
+	clear:both; 	
+}
+
+footer{
+	color: #808080; 
+}

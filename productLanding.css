@@ -1,0 +1,61 @@
+
+body{
+	/*background color is cream*/
+	background-color:#fffdd0;
+}
+
+
+/*color current page is salmon in nav bar*/
+#products{
+	background-color: #ff5757;
+}
+
+/*section titles*/
+h3{
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+	font-size: 2em; 
+	color: #643232;
+	margin-bottom: 10px;
+	text-decoration:underline;
+}
+
+
+/* Container needed to position the overlay. */
+.container {
+	position: relative;
+	display:inline;
+	clear: both;
+	margin:10px;
+}
+
+/* Text lays on top of the container and over the image */
+.overlay {
+	position: absolute; 
+	bottom: 0px; 
+	left:0px;
+	/* white see-through */
+	background: rgba(255, 255, 255, 0.7); 
+	/*salmon text*/
+	color: #ff5757; 
+	width: 160px;
+	/*fades in*/
+	transition: .5s ease;
+	opacity:0;
+	font-size: 20px;
+	padding: 20px;
+ 	text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+	opacity: 1;
+}
+
+/*footer and paragraph text*/
+footer, p{
+	/*text is grey*/
+	color:#808080;
+	/*prevent wrapping*/
+	clear:both;
+}

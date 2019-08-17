@@ -1,0 +1,64 @@
+body{
+	/*background color is cream*/
+	background-color:#fffdd0;
+}
+
+
+/*color of current page is Salmon in nav bar*/
+#deals{
+	background-color:#ff5757;
+} 
+
+/*section title*/
+h4{
+	/*salmon text*/
+	color: #ff5757;
+	font-size: 2em; 
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+
+}
+
+/*promo titles*/
+h5{
+	/*increase font by 50%*/
+	font-size: 1.5em;
+	
+}
+
+/*promotion fieldsets*/
+.promo{
+	/*do not let each promo be wider than 180 px*/
+	max-width: 180px; 
+	/*make sure each box is at least 180px tall*/
+	min-height: 180px; 
+	/*have promos display side by side*/
+	display: inline; 
+	/*center content in each fieldset*/
+	text-align: center;
+	/*gray background color*/
+	background-color:#808080; 
+	/*maroon border and text color*/
+	border-color: #643232;
+	color: #643232;
+	/*give margins between each promo*/
+	margin: 20px; 
+}
+
+/*button to remove current promo*/
+#noPromo{
+	/*display on own line, no float*/
+	display: block; 
+	clear: both;
+	/*give padding and margins*/ 
+	padding: 10px; 
+	margin: 30px; 
+}
+
+/*non-logged in view, footer, and legalese*/
+footer, small, #no_access{
+	/*text is grey*/
+	color:#808080;
+	/*prevent wrapping*/
+	clear:both;
+}

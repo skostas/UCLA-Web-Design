@@ -1,0 +1,68 @@
+body{
+	/*background color is cream*/
+	background-color:#fffdd0;
+}
+
+/*headings for sections*/
+.section_title{
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+	/*double font size*/
+	font-size:2em;
+	/*color is pale maroon*/
+	color:#643232;
+	/*underline text*/
+	text-decoration: underline;
+	/*center text*/
+	text-align: center;
+}
+
+/*color of current page is Salmon in nav bar*/
+#testimonials{
+	background-color:#ff5757;
+}
+
+/*place past tesitimonials on left side of page*/
+#read_review{
+	width: 45%; 
+	height: 350px;
+	float:left;
+	/*add scroll bar to see additional reviews*/
+	overflow: scroll;
+	/*add equal padding to all sides*/
+	padding:20px;
+	margin-bottom: 10px;
+}
+/*all paragraphs*/
+p{
+	/*text is grey*/
+	color: #808080;;
+}
+
+/*place form on right side of page*/
+#write_review{
+	width:45%;
+	float:right;
+	padding: 20px;
+	margin-bottom:10px;
+}
+/*for writing reviews*/
+textarea{
+	font-family: Ariel, sans-serif;
+}
+
+/*submit review*/
+#buttons{
+	text-align:right;
+	margin-right: 35px
+}
+
+#comment,#instructions{
+	text-align: center;
+}
+footer{
+	/*text is grey*/
+	color:#808080;
+	/*prevent wrapping*/
+	clear:both;
+}

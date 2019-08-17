@@ -1,0 +1,86 @@
+body{
+	/*background color is cream*/
+	background-color:#fffdd0;
+}
+
+/*current page color is salmon in nav bar*/
+#about {
+	background-color:#ff5757; 
+}
+
+/*place logo image on left and allow about section to wrap around it*/
+#big_logo{
+	float:left;
+}
+
+/*headings for sections*/
+.section_title{
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+	/*text color is Salmon*/
+	color:#ff5757;
+	/*increase font 1.5x from original*/
+	font-size: 1.5em;
+	/*remove bottom marigin*/
+	margin-bottom: 0px;
+}
+/*all paragraph text*/
+p{
+	/*indent first word of each paragraph*/
+	text-indent:5%;
+	/*text is gray*/
+	color:#808080;
+}
+
+/*background section*/
+#bio_section{
+	/*add margins and padding*/
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+/*do not indent contact info*/
+#contact_info{
+	text-indent:0%;
+	text-align: center;
+}
+
+#contact_section{
+	/*add padding and margins*/
+	padding: 14px 16px;
+	margin-top: 20px;
+	/*set position as relative*/	
+	position:relative;
+	
+}
+#contact_title{
+	/*remove top margin*/
+	margin-top: 0px;
+	text-align:center;
+}
+
+/*message box and submit button*/ 
+.alignCenter{
+	/*center*/
+	text-align:center;
+}
+/*input fields of form*/
+.alignLeft{
+	/*align elements to left side*/
+	text-align: left; 
+	/*set text to grey*/
+	color:#808080;
+	/*center flush with message box*/
+	position: relative; 
+	width: 50%; 
+	left: 100px;
+	/*space from messsage box*/
+	margin-bottom: 15px; 
+}
+
+footer{
+	/*set text to grey*/
+	color:#808080;
+	/*prevent wrapping*/
+	clear:both;
+}

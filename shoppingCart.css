@@ -1,0 +1,112 @@
+
+body{
+	/*background color is cream*/
+	background-color:#fffdd0;
+}
+
+#sectionTitle{
+	font-size: 2em; 
+	font-family:"Brush Script MT", cursive;
+	color:#ff5757;
+	text-decoration: underline; 
+}
+
+/*both fieldsets of cart and quick add to cart*/
+#cost, #items, table{
+	/*even when no contents within, fieldset should take up */
+	min-width: 350px; 
+	max-width: 400px; 
+	/*10px margins for all sides unless otherwise specified*/
+	margin: 10px; 
+
+}
+
+/*title within items, cost, and quick add to cart*/
+h4, th{
+	/*text is gray*/
+	color:#808080; 
+	/*underline*/
+	text-decoration: underline; 
+	padding: 20px; 
+	margin: 0px;  
+}
+
+/*cart, cost, and quick add ot cart borders*/
+fieldset, table{
+	/*maroon border*/
+	border:2px solid #643232;
+	/*text is gray*/
+	color: #808080; 
+}
+
+/*product images within figure and cost and item fieldsets should all float left*/
+image, #cost, #items{
+	/*allow other containers (ie figcaption) to be on same line and to wrap on right side of image*/
+	display: inline;
+	float: left; 
+}
+
+/*fieldset for items in cart*/
+#items{
+	/*create bigger gap between left page edge and fieldset*/
+	margin-left: 50px;
+}
+
+/*cart and quick add to cart items*/
+figure{
+	margin: 10px; 
+	/*regardless of contents will always take up 300x80 at a minimum*/
+	min-width: 300px; 
+	min-height: 80px; 
+}
+
+/*quick add to cart and cart items descriptions and buttons*/
+figcaption{
+	/*text is gray*/
+	color:#808080; 
+	/*wrap such that is to the right of product image*/
+	float:right; 
+	/*75% font size*/
+	font-size: 0.75em;
+}
+
+
+/*quick add to cart table*/
+table{
+	/*allowing wrapping along left side*/
+	float: right; 
+}
+
+/*quantity field for quick add to cart*/
+.quant{
+	/*restrict size of input field*/
+	width:10px;
+	text-align: left;
+	padding: 5px;
+}
+
+/*items that should be align with left of container*/
+.flushLeft{
+	text-align: left; 
+
+}
+
+/*items that should be align with right side of container*/
+.flushRight{
+	text-align: right; 
+}
+
+
+/*no access display of page*/
+#no_access{
+	/*text is gray*/
+	color:#808080;
+}
+
+footer{
+	/*text is grey*/
+	color:#808080;
+	/*prevent wrapping*/
+	clear:both;
+	margin-top: 10px; 
+}

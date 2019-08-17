@@ -1,0 +1,89 @@
+
+body{
+	/*background color is cream*/
+	background-color:#fffdd0;
+}
+
+/*color current page is salmon in nav bar*/
+#home{
+	background-color: #ff5757;
+}
+
+/*headings for sections*/
+.section_title{
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+	/*double font size from original*/
+	font-size:2em;
+	/*color is pale maroon*/
+	color:#643232;
+	/*underline text*/
+	text-decoration: underline;
+	/*center text*/
+	text-align: center;
+}
+
+
+/*featured products section*/
+#product_section{
+	/*place component of left side of page and allow components to wrap around it*/
+	float:left;
+	/*add same margins on all sides*/
+	margin:25px;
+	/*color is pale maroon*/
+	border-color:#643232;
+	/*encolse in a solid border*/
+	border-style:solid;
+}
+
+/*product figure captions*/
+figcaption{
+	/*center text*/
+	text-align:center;
+	/*text color is Salmon*/
+	color:#ff5757;
+}
+
+/*media article section*/
+#media_section{
+	/*place component on right side and allow fror wrappin*/
+	float:right;
+	/*reduce the width of section*/
+	width:60%;
+	/*add padding and margins*/
+	margin:25px;
+	padding: 15px;
+	/*color is pale maroon*/
+	border-color:#643232;
+	border-style:solid;
+}
+
+/*headings for articles*/
+.artl{
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+	/*text color is Salmon*/
+	color:#ff5757;
+	/*increase font size 1.25x from original*/
+	font-size: 1.5em;
+	/*remove bottom margin*/
+	margin-bottom: 0px;
+}
+
+/*text within media articles*/
+.mediaTxt{
+	/*indenet first word of each paragraph*/
+	text-indent:5%;
+	/*text is gray*/
+	color:#808080;
+	/*increase font by 1.2x original*/
+	font-size:1.2em;
+}
+
+/*page footer*/
+footer{
+	/*grey text*/
+	color:#808080;
+	/*prevent wrapping*/
+	clear:both;
+}

@@ -1,0 +1,109 @@
+/*header formatting*/
+#title{
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+	/*make font 4x larger than original*/
+	font-size: 4em;
+	/*remove bottom margin*/
+	margin-bottom: 0px;
+	/*text color is Salmon*/
+	color:#ff5757;
+	/*allows logo and title to be on same line*/
+	display: inline;
+}
+
+#subtitle{
+	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+	font-family: "Brush Script MT", cursive;
+	/*double font size from original*/
+	font-size: 2em;
+	/*remove top margin*/
+	margin-top: 0px;
+	/*text is gray*/
+	color:#808080;
+}
+
+/*align logo with title (h1) such that title wraps around it*/
+#logo{
+	float:left;
+}
+
+/*login form*/
+.login{
+	display:inline;
+	float: right;
+	width:300px;
+	text-align: right;
+	padding-top: 30px;
+	/*text is gray*/
+	color:#808080;
+
+}
+/*menu bar*/
+nav{
+	clear: both;
+}
+ul {
+	/*do not include a marker next to list items*/
+  	list-style-type: none;
+  	/*remove margins and padding*/
+  	margin: 0;
+  	padding: 0;
+  	/*confine text to bar*/
+  	overflow: hidden;
+  	/*color is pale maroon*/
+  	background-color:#643232;
+}
+/*put all list items in a horizontal line*/
+li {
+ 	float: left;
+}
+li a {
+	/*make list items block elements rather than inline (default)*/
+	display: block;
+	/*make text white*/
+  	color: #FFFFFF;
+  	/*center text*/
+  	text-align: center;
+  	/*add padding around text in each block*/
+  	padding: 14px 16px;
+  	/*underline each word*/
+  	text-decoration: underline;
+  	/*set font to Brush Script if avialabe, otherwise generic cursive*/
+  	font-family: "Brush Script MT", cursive;
+  	/*increase font by 1.75x*/
+  	font-size: 1.75em;
+}
+
+/* Change the box color to richer red when hover over it*/
+li a:hover, #dropdown:hover{
+  	background-color: #641414;
+}
+
+/*list items in products dropdown*/
+li #dropdown{
+	display:inline-block;
+}
+#dropdown_content {
+	/*color is pale maroon*/
+  	background-color:#643232;
+	display: none;
+	position: absolute;
+	/*slight shadow on dropdown options*/
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	/*drop downs are in front of other page content*/
+	z-index: 1;
+}
+
+#dropdown_content a {
+	padding: 14px 16px;
+	display: block;
+	text-align: left;
+	width:185px;
+	font-size:1.5em;
+}
+/*when hover over products tab, show dropdown options*/
+#dropdown:hover #dropdown_content {
+	display: block;
+}
+
